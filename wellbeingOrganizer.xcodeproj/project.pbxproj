@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECBCBCBF257A9512000ECC91 /* wellbeingOrganizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBCBCBE257A9512000ECC91 /* wellbeingOrganizerApp.swift */; };
+		ECBCBCC1257A9512000ECC91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBCBCC0257A9512000ECC91 /* ContentView.swift */; };
+		ECBCBCC3257A9527000ECC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBCBCC2257A9527000ECC91 /* Assets.xcassets */; };
+		ECBCBCC6257A9527000ECC91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBCBCC5257A9527000ECC91 /* Preview Assets.xcassets */; };
+		ECBCBCD1257A9528000ECC91 /* wellbeingOrganizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBCBCD0257A9528000ECC91 /* wellbeingOrganizerTests.swift */; };
+		ECBCBCDC257A9528000ECC91 /* wellbeingOrganizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBCBCDB257A9528000ECC91 /* wellbeingOrganizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECBCBCCD257A9528000ECC91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBCBCB3257A9511000ECC91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBCBCBA257A9512000ECC91;
+			remoteInfo = wellbeingOrganizer;
+		};
+		ECBCBCD8257A9528000ECC91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBCBCB3257A9511000ECC91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBCBCBA257A9512000ECC91;
+			remoteInfo = wellbeingOrganizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECBCBCBB257A9512000ECC91 /* wellbeingOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wellbeingOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBCBCBE257A9512000ECC91 /* wellbeingOrganizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wellbeingOrganizerApp.swift; sourceTree = "<group>"; };
+		ECBCBCC0257A9512000ECC91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECBCBCC2257A9527000ECC91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECBCBCC5257A9527000ECC91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECBCBCC7257A9527000ECC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBCBCCC257A9528000ECC91 /* wellbeingOrganizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wellbeingOrganizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBCBCD0257A9528000ECC91 /* wellbeingOrganizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wellbeingOrganizerTests.swift; sourceTree = "<group>"; };
+		ECBCBCD2257A9528000ECC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBCBCD7257A9528000ECC91 /* wellbeingOrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wellbeingOrganizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBCBCDB257A9528000ECC91 /* wellbeingOrganizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wellbeingOrganizerUITests.swift; sourceTree = "<group>"; };
+		ECBCBCDD257A9528000ECC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBCBCB8257A9512000ECC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBCBCC9257A9528000ECC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBCBCD4257A9528000ECC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECBCBCB2257A9511000ECC91 = {
+			isa = PBXGroup;
+			children = (
+				ECBCBCBD257A9512000ECC91 /* wellbeingOrganizer */,
+				ECBCBCCF257A9528000ECC91 /* wellbeingOrganizerTests */,
+				ECBCBCDA257A9528000ECC91 /* wellbeingOrganizerUITests */,
+				ECBCBCBC257A9512000ECC91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBCBCBC257A9512000ECC91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBCBCBB257A9512000ECC91 /* wellbeingOrganizer.app */,
+				ECBCBCCC257A9528000ECC91 /* wellbeingOrganizerTests.xctest */,
+				ECBCBCD7257A9528000ECC91 /* wellbeingOrganizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBCBCBD257A9512000ECC91 /* wellbeingOrganizer */ = {
+			isa = PBXGroup;
+			children = (
+				ECBCBCBE257A9512000ECC91 /* wellbeingOrganizerApp.swift */,
+				ECBCBCC0257A9512000ECC91 /* ContentView.swift */,
+				ECBCBCC2257A9527000ECC91 /* Assets.xcassets */,
+				ECBCBCC7257A9527000ECC91 /* Info.plist */,
+				ECBCBCC4257A9527000ECC91 /* Preview Content */,
+			);
+			path = wellbeingOrganizer;
+			sourceTree = "<group>";
+		};
+		ECBCBCC4257A9527000ECC91 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECBCBCC5257A9527000ECC91 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECBCBCCF257A9528000ECC91 /* wellbeingOrganizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBCBCD0257A9528000ECC91 /* wellbeingOrganizerTests.swift */,
+				ECBCBCD2257A9528000ECC91 /* Info.plist */,
+			);
+			path = wellbeingOrganizerTests;
+			sourceTree = "<group>";
+		};
+		ECBCBCDA257A9528000ECC91 /* wellbeingOrganizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBCBCDB257A9528000ECC91 /* wellbeingOrganizerUITests.swift */,
+				ECBCBCDD257A9528000ECC91 /* Info.plist */,
+			);
+			path = wellbeingOrganizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBCBCBA257A9512000ECC91 /* wellbeingOrganizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBCBCE0257A9528000ECC91 /* Build configuration list for PBXNativeTarget "wellbeingOrganizer" */;
+			buildPhases = (
+				ECBCBCB7257A9512000ECC91 /* Sources */,
+				ECBCBCB8257A9512000ECC91 /* Frameworks */,
+				ECBCBCB9257A9512000ECC91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wellbeingOrganizer;
+			productName = wellbeingOrganizer;
+			productReference = ECBCBCBB257A9512000ECC91 /* wellbeingOrganizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECBCBCCB257A9528000ECC91 /* wellbeingOrganizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBCBCE3257A9528000ECC91 /* Build configuration list for PBXNativeTarget "wellbeingOrganizerTests" */;
+			buildPhases = (
+				ECBCBCC8257A9528000ECC91 /* Sources */,
+				ECBCBCC9257A9528000ECC91 /* Frameworks */,
+				ECBCBCCA257A9528000ECC91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBCBCCE257A9528000ECC91 /* PBXTargetDependency */,
+			);
+			name = wellbeingOrganizerTests;
+			productName = wellbeingOrganizerTests;
+			productReference = ECBCBCCC257A9528000ECC91 /* wellbeingOrganizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECBCBCD6257A9528000ECC91 /* wellbeingOrganizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBCBCE6257A9528000ECC91 /* Build configuration list for PBXNativeTarget "wellbeingOrganizerUITests" */;
+			buildPhases = (
+				ECBCBCD3257A9528000ECC91 /* Sources */,
+				ECBCBCD4257A9528000ECC91 /* Frameworks */,
+				ECBCBCD5257A9528000ECC91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBCBCD9257A9528000ECC91 /* PBXTargetDependency */,
+			);
+			name = wellbeingOrganizerUITests;
+			productName = wellbeingOrganizerUITests;
+			productReference = ECBCBCD7257A9528000ECC91 /* wellbeingOrganizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBCBCB3257A9511000ECC91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					ECBCBCBA257A9512000ECC91 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					ECBCBCCB257A9528000ECC91 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ECBCBCBA257A9512000ECC91;
+					};
+					ECBCBCD6257A9528000ECC91 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ECBCBCBA257A9512000ECC91;
+					};
+				};
+			};
+			buildConfigurationList = ECBCBCB6257A9511000ECC91 /* Build configuration list for PBXProject "wellbeingOrganizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECBCBCB2257A9511000ECC91;
+			productRefGroup = ECBCBCBC257A9512000ECC91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBCBCBA257A9512000ECC91 /* wellbeingOrganizer */,
+				ECBCBCCB257A9528000ECC91 /* wellbeingOrganizerTests */,
+				ECBCBCD6257A9528000ECC91 /* wellbeingOrganizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBCBCB9257A9512000ECC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBCBCC6257A9527000ECC91 /* Preview Assets.xcassets in Resources */,
+				ECBCBCC3257A9527000ECC91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBCBCCA257A9528000ECC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBCBCD5257A9528000ECC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBCBCB7257A9512000ECC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBCBCC1257A9512000ECC91 /* ContentView.swift in Sources */,
+				ECBCBCBF257A9512000ECC91 /* wellbeingOrganizerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBCBCC8257A9528000ECC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBCBCD1257A9528000ECC91 /* wellbeingOrganizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBCBCD3257A9528000ECC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBCBCDC257A9528000ECC91 /* wellbeingOrganizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECBCBCCE257A9528000ECC91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBCBCBA257A9512000ECC91 /* wellbeingOrganizer */;
+			targetProxy = ECBCBCCD257A9528000ECC91 /* PBXContainerItemProxy */;
+		};
+		ECBCBCD9257A9528000ECC91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBCBCBA257A9512000ECC91 /* wellbeingOrganizer */;
+			targetProxy = ECBCBCD8257A9528000ECC91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECBCBCDE257A9528000ECC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECBCBCDF257A9528000ECC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBCBCE1257A9528000ECC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"wellbeingOrganizer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BZ43KCTM7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = wellbeingOrganizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.cleayates.wellbeingOrganizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECBCBCE2257A9528000ECC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"wellbeingOrganizer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BZ43KCTM7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = wellbeingOrganizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.cleayates.wellbeingOrganizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECBCBCE4257A9528000ECC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BZ43KCTM7;
+				INFOPLIST_FILE = wellbeingOrganizerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.cleayates.wellbeingOrganizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wellbeingOrganizer.app/wellbeingOrganizer";
+			};
+			name = Debug;
+		};
+		ECBCBCE5257A9528000ECC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BZ43KCTM7;
+				INFOPLIST_FILE = wellbeingOrganizerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.cleayates.wellbeingOrganizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wellbeingOrganizer.app/wellbeingOrganizer";
+			};
+			name = Release;
+		};
+		ECBCBCE7257A9528000ECC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BZ43KCTM7;
+				INFOPLIST_FILE = wellbeingOrganizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.cleayates.wellbeingOrganizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wellbeingOrganizer;
+			};
+			name = Debug;
+		};
+		ECBCBCE8257A9528000ECC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BZ43KCTM7;
+				INFOPLIST_FILE = wellbeingOrganizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.cleayates.wellbeingOrganizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wellbeingOrganizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBCBCB6257A9511000ECC91 /* Build configuration list for PBXProject "wellbeingOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBCBCDE257A9528000ECC91 /* Debug */,
+				ECBCBCDF257A9528000ECC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBCBCE0257A9528000ECC91 /* Build configuration list for PBXNativeTarget "wellbeingOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBCBCE1257A9528000ECC91 /* Debug */,
+				ECBCBCE2257A9528000ECC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBCBCE3257A9528000ECC91 /* Build configuration list for PBXNativeTarget "wellbeingOrganizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBCBCE4257A9528000ECC91 /* Debug */,
+				ECBCBCE5257A9528000ECC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBCBCE6257A9528000ECC91 /* Build configuration list for PBXNativeTarget "wellbeingOrganizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBCBCE7257A9528000ECC91 /* Debug */,
+				ECBCBCE8257A9528000ECC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBCBCB3257A9511000ECC91 /* Project object */;
+}
