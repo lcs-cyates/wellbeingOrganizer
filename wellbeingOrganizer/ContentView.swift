@@ -9,8 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack{
+                Text("How are you feeling today?")
+                    .font(.title)
+                    .padding()
+                
+                Button(action: {
+                    //when enter is pressed go to screen 2
+                    screen2()
+                }, label: {
+                    Text("Enter")
+                })
+            }
+        }
     }
 }
 
