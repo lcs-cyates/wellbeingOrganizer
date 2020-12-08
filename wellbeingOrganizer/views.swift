@@ -10,7 +10,15 @@ import SwiftUI
 struct ScreenTwoView: View {
     @Binding var GoToScreen2: Bool
     var body: some View {
-        Text("Goals")
+        NavigationView{
+            Form{
+                Section{
+                    Text("Daily")
+                    Text("Weekly")
+                    Text("Long Term")
+                }
+            }
+        }.navigationBarTitle(Text("Goals"))
     }
 }
 
@@ -36,6 +44,5 @@ struct ScreenOneView: View {
                     Text("Enter")
                 }
             }
-
         }
     }
