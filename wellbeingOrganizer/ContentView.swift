@@ -8,21 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var textBox: String = ""
+    
+    @State var GoToScreen2 : Bool = false
+    
     var body: some View {
         NavigationView {
-            VStack{
-                Text("How are you feeling today?")
-                    .font(.title)
-                    .padding()
-                TextField("Text", text: $textBox)
-                    .padding()
-                Button(action: {
-                    //when enter is pressed go to screen 2
-                    ScreenTwoView()
-                }, label: {
-                    Text("Enter")
-                })
+            if GoToScreen2 == false {
+                ScreenOneView(GoToScreen2: $GoToScreen2)
+            } else {
+                ScreenTwoView(GoToScreen2: $GoToScreen2)
             }
         }
     }
@@ -31,6 +25,5 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            
     }
 }

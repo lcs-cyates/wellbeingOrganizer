@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC443334257BDBE900207E10 /* screen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC443333257BDBE900207E10 /* screen2.swift */; };
+		EC443334257BDBE900207E10 /* views.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC443333257BDBE900207E10 /* views.swift */; };
 		ECBCBCBF257A9512000ECC91 /* wellbeingOrganizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBCBCBE257A9512000ECC91 /* wellbeingOrganizerApp.swift */; };
 		ECBCBCC1257A9512000ECC91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBCBCC0257A9512000ECC91 /* ContentView.swift */; };
 		ECBCBCC3257A9527000ECC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBCBCC2257A9527000ECC91 /* Assets.xcassets */; };
@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EC443333257BDBE900207E10 /* screen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen2.swift; sourceTree = "<group>"; };
+		EC443333257BDBE900207E10 /* views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = views.swift; sourceTree = "<group>"; };
 		ECBCBCBB257A9512000ECC91 /* wellbeingOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wellbeingOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBCBCBE257A9512000ECC91 /* wellbeingOrganizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wellbeingOrganizerApp.swift; sourceTree = "<group>"; };
 		ECBCBCC0257A9512000ECC91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 				ECBCBCC2257A9527000ECC91 /* Assets.xcassets */,
 				ECBCBCC7257A9527000ECC91 /* Info.plist */,
 				ECBCBCC4257A9527000ECC91 /* Preview Content */,
-				EC443333257BDBE900207E10 /* screen2.swift */,
+				EC443333257BDBE900207E10 /* views.swift */,
 			);
 			path = wellbeingOrganizer;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 			files = (
 				ECBCBCC1257A9512000ECC91 /* ContentView.swift in Sources */,
 				ECBCBCBF257A9512000ECC91 /* wellbeingOrganizerApp.swift in Sources */,
-				EC443334257BDBE900207E10 /* screen2.swift in Sources */,
+				EC443334257BDBE900207E10 /* views.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
