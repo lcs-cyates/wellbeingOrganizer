@@ -13,10 +13,14 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            if GoToScreen2 == false {
-                ScreenOneView(GoToScreen2: $GoToScreen2)
-            } else {
-                ScreenTwoView(GoToScreen2: $GoToScreen2)
+            ZStack{
+                Color.yellow
+                    .ignoresSafeArea()
+                if GoToScreen2 == false {
+                    ScreenOneView(GoToScreen2: $GoToScreen2)
+                } else {
+                    ScreenTwoView(GoToScreen2: $GoToScreen2)
+               }
             }
         }
     }

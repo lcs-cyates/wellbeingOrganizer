@@ -9,18 +9,33 @@ import SwiftUI
 
 struct ScreenTwoView: View {
     @Binding var GoToScreen2: Bool
+    @State private var addDailyGoal = ""
+    @State private var addWeeklyGoal = ""
+    @State private var addLongTermGoal = ""
     var body: some View {
-        NavigationView{
-            Form{
-                Section{
-                    Text("Daily")
-                    Text("Weekly")
-                    Text("Long Term")
+        ZStack{
+            Color.yellow
+                .ignoresSafeArea()
+            NavigationView{
+                Form{
+                    Section{
+                        Text("Daily")
+                        TextField("Add a goal", text: $addDailyGoal)
+                    }
+                    Section{
+                        Text("Weekly")
+                        TextField("Add a goal", text: $addWeeklyGoal)
+                    }
+                    Section{
+                        Text("Long Term")
+                        TextField("Add a goal", text: $addLongTermGoal)
+                    }
                 }
             }
         }.navigationBarTitle(Text("Goals"))
     }
 }
+
 
 struct ScreenOneView: View {
     @Binding var GoToScreen2: Bool
@@ -46,3 +61,11 @@ struct ScreenOneView: View {
             }
         }
     }
+
+//struct ScreenTwoView: View {
+//    var body: some View {
+//        ZStack{
+//            Color.yellow
+//        }
+//    }
+//}
