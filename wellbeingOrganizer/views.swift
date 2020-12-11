@@ -26,37 +26,50 @@ struct ScreenTwoView: View {
                         Text("Daily")
                         TextField("Add a goal", text: $dailyGoal)
                         Button(action:{
-                            addDailyGoal.append(dailyGoal)
-                            print(addDailyGoal)
-                            dailyGoal = ""
+//                            addDailyGoal.append(dailyGoal)
+//                            print(addDailyGoal)
+//                            dailyGoal = ""
                             saveDailyGoal()
                         },label: {
                             Text("Save")
                         })
                     }
+                    List(addDailyGoal, id: \.self) { colour in
+                        Text(colour)
+
+                    }
+                        
                     Section{
                         Text("Weekly")
                         TextField("Add a goal", text: $weeklyGoal)
                         Button(action:{
-                            addWeeklyGoal.append(weeklyGoal)
-                            print(addWeeklyGoal)
-                            weeklyGoal = ""
+//                            addWeeklyGoal.append(weeklyGoal)
+//                            print(addWeeklyGoal)
+//                            weeklyGoal = ""
                             saveWeeklyGoal()
                         },label: {
                             Text("Save")
                         })
                     }
+                    List(addWeeklyGoal, id: \.self) { colour in
+                        Text(colour)
+                        
+                    }
                     Section{
                         Text("Long Term")
                         TextField("Add a goal", text: $longTermGoal)
                         Button(action:{
-                            addLongTermGoal.append(longTermGoal)
-                            print(addLongTermGoal)
-                            longTermGoal = ""
+//                            addLongTermGoal.append(longTermGoal)
+//                            print(addLongTermGoal)
+//                            longTermGoal = ""
                             saveLongTermGoal()
                         },label: {
                             Text("Save")
                         })
+                    }
+                    List(addLongTermGoal, id: \.self) { colour in
+                        Text(colour)
+                        
                     }
 //                    Section(header: Text("My favourite colours are...")) {
 //                                        // NOTE: If items in a list will be removed later, they really should be made unique. See: https://www.hackingwithswift.com/books/ios-swiftui/working-with-identifiable-items-in-swiftui
