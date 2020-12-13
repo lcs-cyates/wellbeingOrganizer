@@ -26,7 +26,7 @@ struct ScreenTwoView: View {
             NavigationView{
                 Form{
                     Section{
-                        Text("Daily")
+                        Text("Daily:")
                         TextField("Add a goal", text: $dailyGoal)
                         Button(action:{
 //                            addDailyGoal.append(dailyGoal)
@@ -43,7 +43,7 @@ struct ScreenTwoView: View {
                     }
                         
                     Section{
-                        Text("Weekly")
+                        Text("Weekly:")
                         TextField("Add a goal", text: $weeklyGoal)
                         Button(action:{
 //                            addWeeklyGoal.append(weeklyGoal)
@@ -59,7 +59,7 @@ struct ScreenTwoView: View {
                         
                     }
                     Section{
-                        Text("Long Term")
+                        Text("Long Term:")
                         TextField("Add a goal", text: $longTermGoal)
                         Button(action:{
 //                            addLongTermGoal.append(longTermGoal)
@@ -81,38 +81,39 @@ struct ScreenTwoView: View {
                 }
             }
         }.navigationBarTitle(Text("Goals"))
-    }
-    .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
+    
+.onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
     print("moving to the background!")
     let defaults = UserDefaults.standard
     defaults.set(addDailyGoal, forKey: dailyGoalsKey)
 }
-    .onAppear(){
+.onAppear(){
     print("Moving back to the foreground!")
     let defaults = UserDefaults.standard
     addDailyGoal = defaults.object(forKey: dailyGoalsKey) as? [String] ?? []
 }
     
-    .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
+.onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
     print("moving to the background!")
     let defaults = UserDefaults.standard
     defaults.set(addWeeklyGoal, forKey: weeklyGoalsKey)
 }
-    .onAppear(){
+.onAppear(){
     print("Moving back to the foreground!")
     let defaults = UserDefaults.standard
     addWeeklyGoal = defaults.object(forKey: weeklyGoalsKey) as? [String] ?? []
 }
     
-    .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
+.onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
     print("moving to the background!")
     let defaults = UserDefaults.standard
     defaults.set(addLongTermGoal, forKey: longTermGoalsKey)
 }
-    .onAppear(){
+.onAppear(){
     print("Moving back to the foreground!")
     let defaults = UserDefaults.standard
     addLongTermGoal = defaults.object(forKey: longTermGoalsKey) as? [String] ?? []
+}
 }
     
     func saveDailyGoal() {
